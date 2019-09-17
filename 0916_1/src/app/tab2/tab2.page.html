@@ -1,0 +1,44 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>
+            Community Dashboard
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-list>
+        <ion-list-header></ion-list-header>
+
+        <ion-item>
+            <ion-label>Select type of report to send</ion-label>
+            <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+                <ion-select-option value="brown">Damage</ion-select-option>
+                <ion-select-option value="blonde">Traffic/Accident</ion-select-option>
+                <ion-select-option value="black">Comment</ion-select-option>
+                <ion-select-option value="red">Other</ion-select-option>
+            </ion-select>
+        </ion-item>
+
+    </ion-list>
+
+    <ion-input placeholder="type any other observation here"></ion-input>
+    <ion-button expand="block">tap here tap to save and send alert!</ion-button>
+    <br>
+    <ion-header>Your city's already looking into the issues below:</ion-header>
+    <ion-item>list of issues</ion-item>
+    <ion-item>list of issues</ion-item>
+    <ion-item>list of issues</ion-item>
+
+</ion-content>
+
+<!-- <p>issue selector menu</p>
+
+    <ion-input placeholder="type your observation here"></ion-input>
+    <p>type your observation here tap to save and send alert!</p>
+
+    <ion-item>
+    <ion-label position="floating">Floating Label</ion-label>
+    <ion-input></ion-input>
+    </ion-item> -->
