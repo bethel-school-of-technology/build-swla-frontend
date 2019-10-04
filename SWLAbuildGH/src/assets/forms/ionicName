@@ -1,0 +1,4 @@
+ 
+<ion-input placeholder="First Name"></ion-input>
+
+<ion-input placeholder="Last Name"></ion-input>

@@ -1,0 +1,4 @@
+<form>
+  <input placeholder="First Name">
+  <input placeholder="Last Name">
+</form>
